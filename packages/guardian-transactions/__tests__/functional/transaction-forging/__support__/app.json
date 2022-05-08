@@ -1,0 +1,57 @@
+{
+    "core": {
+        "plugins": [
+            {
+                "package": "@cauriland/core-logger-pino"
+            },
+            {
+                "package": "@cauriland/core-state"
+            },
+            {
+                "package": "@cauriland/core-database"
+            },
+            {
+                "package": "@cauriland/core-transactions"
+            },
+            {
+                "package": "@cauriland/core-magistrate-transactions"
+            },
+            {
+                "package": "@cauriland/core-transaction-pool"
+            },
+            {
+                "package": "@caurihub/guardian-transactions"
+            },
+            {
+                "package": "@cauriland/core-p2p"
+            },
+            {
+                "package": "@cauriland/core-blockchain"
+            },
+            {
+                "package": "@cauriland/core-api"
+            },
+            {
+                "package": "@caurihub/guardian-api"
+            },
+            {
+                "package": "@cauriland/core-magistrate-api"
+            },
+            {
+                "package": "@cauriland/core-webhooks"
+            },
+            {
+                "package": "@cauriland/core-forger"
+            },
+            {
+                "package": "@cauriland/core-snapshots"
+            }
+        ]
+    },
+    "relay": {
+        "plugins": []
+    },
+    "forger": {
+        "plugins": []
+    }
+}
